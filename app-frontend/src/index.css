@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply h-screen w-screen flex justify-center items-center bg-custom font-sans;
+}
+
+.container {
+  @apply bg-white p-6 rounded-lg shadow-lg;
+}
+
+h2 {
+  @apply text-2xl font-bold mb-4;
+}
+
+form {
+  @apply flex flex-col gap-4;
+}
+
+form div {
+  @apply flex flex-col gap-1;
+}
+
+input {
+  @apply p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500;
+}
+
+button {
+  @apply bg-indigo-600 text-white p-2 rounded-md text-lg hover:bg-indigo-700;
+}
+
+a {
+  @apply text-indigo-600 hover:underline;
+}
+
+
+
